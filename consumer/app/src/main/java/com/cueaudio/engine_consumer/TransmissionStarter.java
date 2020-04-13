@@ -296,6 +296,7 @@ public class TransmissionStarter extends Service {
         CUEEngine.getInstance().setTransmittingEnabled(false);
 
         isServiceStarted= false;
+
     }
 }
 

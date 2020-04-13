@@ -85,7 +85,7 @@
         android:padding="16dp"
 
         android:visibility="gone"
-         app:layout_constraintRight_toRightOf="@+id/outputView"
+        app:layout_constraintRight_toRightOf="@+id/outputView"
         app:layout_constraintBottom_toBottomOf="@+id/outputView"
         android:background="?selectableItemBackground"/>
 
@@ -94,7 +94,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start Service"
-         android:background="#8BC34A"
+        android:background="#8BC34A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/output_mode" />
